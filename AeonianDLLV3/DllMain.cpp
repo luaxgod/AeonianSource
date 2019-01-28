@@ -56,7 +56,7 @@ DWORD WINAPI aeopipe(PVOID lvpParameter)
 
 				}
 			}
-			LuaWrapper::Execute_Script(WholeScript);
+			Wrapper::Execute_Script(WholeScript);
 			WholeScript = "";
 		}
 		DisconnectNamedPipe(hPipe);
