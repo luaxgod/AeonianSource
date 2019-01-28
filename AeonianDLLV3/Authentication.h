@@ -110,7 +110,7 @@ void AuthenticateCredentials(string User_Name, string Pass_Word, AuthLevel AType
 
 		string EncHWID = base64_encode(GetID());
 
-		XorS(WLURL, "NICE TRY 2DS YOU FAT FUCK");
+		XorS(WLURL, "no authey wauthey urley for u skiddie");
 
 		XorS(INFa1, "?17=");
 		XorS(INFa2, "&38=");
