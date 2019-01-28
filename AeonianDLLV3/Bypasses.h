@@ -66,7 +66,7 @@ LONG WINAPI ExceptionHandler(PEXCEPTION_POINTERS ex)
 	{
 		if (ex->ContextRecord->Eip == bpint3[0])
 		{
-			//ex->ContextRecord->Eip = (DWORD)(int3fnhandler);
+			ex->ContextRecord->Eip = (DWORD)(int3fnhandler);
 			return EXCEPTION_CONTINUE_EXECUTION;
 		}
 		if (ex->ContextRecord->Eip == bpint3[1])
@@ -76,7 +76,7 @@ LONG WINAPI ExceptionHandler(PEXCEPTION_POINTERS ex)
 		}
 		if (ex->ContextRecord->Eip == bpint3[2])
 		{
-			//ex->ContextRecord->Eip = (DWORD)(RLUAYield);
+			ex->ContextRecord->Eip = (DWORD)(RLUAYield);
 			return EXCEPTION_CONTINUE_EXECUTION;
 		}
 		return -1;
