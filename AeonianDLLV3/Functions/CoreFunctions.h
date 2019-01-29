@@ -36,7 +36,7 @@ int LoadStringI(lua_State* LS) {
 		luaL_error(LS, "'loadstring' needs 1 string argument.");
 		return 0;
 	}
-	LuaWrapper::Execute_Script(std::string(lua_tostring(LS, -1)));
+	Wrapper::Execute_Script(std::string(lua_tostring(LS, -1)));
 	return 0;
 }
 
