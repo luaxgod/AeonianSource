@@ -285,6 +285,15 @@ int int3fnhandler(DWORD rL) {
 	int Err = lua_pcall(L, r_l_gettop(rL), LUA_MULTRET, 0);
 	if (Err == LUA_ERRRUN) {
 		std::cout << ired << "Roblox API Error: " << lua_tostring(L, -1) << "\n";
+		return 0;
+	}
+	if (Err == LUA_ERRERR) {
+		std::cout << ired << "Unexpected Roblox Error: " << lua_tostring(L, -1) << "\n";
+		return 0;
+	}
+	if (Err == LUA_ERRMEM) {
+		std::cout << ired << "Roblox Memory Error: " << lua_tostring(L, -1) << "\n";
+		return 0;
 	}
 	if (Err == LUA_YIELD) {
 		r_l_pushlightuserdata(RLS, (void*)L);
