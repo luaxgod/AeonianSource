@@ -42,8 +42,30 @@ Yes, all you need to do is update the luastate, top&base, addresses and callingc
 Yes, you may use it for free exploits or personal projects. But please refrain from selling it, I will find out and expose you. If you wish to sell please contact me first for permission!
 
 # What is a Wrapper?
-A wrapper is best explained by the creator of wrapping (Autumn) here:
+A wrapper is best explained by the creator of wrapping (Autumn) here:<br />
 https://v3rmillion.net/showthread.php?tid=370583
+
+# Credits To Code Used
+xgladius - Mouse And KeyBoard Lib<br />
+ASDF - Scanner<br />
+Eternal - RetCheck & SehChainFake<br />
+Doggo & Aero - Leaking The SetField Bypass<br />
+Sloppey - Upload Check Hooke (Luv u slop nohomo)<br />
+Local Communist/Deniality - Idk If He Made It But I Use The Unlink Module Ban Bypass He Had So????????<br />
+
+# Honourable Mentions
+
+Anthony/Core - Teaching Me About Wrappers And Wrapping<br />
+Autumn (Bless Her) Literally Taking Time Out Of Her Day To Teach Me Everything From Start To Finish Even Though She Quit The Exploit Community Years Ago, Huge Thanks To Her<br />
+Cirmolddry - Uhh I Guess You Taught Me About Caching (In The Weirdest Way Possible)<br />
+
+And Most Of All:<br />
+
+Aero - Letting Axon Get Leaked<br />
+If axon was never leaked i would have never met all these amazing people and i would have never gotten into roblox exploiting which is something i thoroughly enjoy to the max and it's something i do every day. So thanks for that aero i really appreciate it even if it wasn't supposed to be a good thing (which it wasn't) :P<br />
+
+
+# If Your Code Is In Here And Was Not Credited Contact Me And Ill Add It!
 
 # Help Me Please!
 
