@@ -307,6 +307,22 @@ int int3fnhandler(DWORD rL) {
 	return args;
 }
 
+/*Used For Instance Caching*/
+
+static int GlobalsIndex(lua_State* Thread) {
+	int RThread = r_l_newthread(RLS);
+	r_l_getglobal(RThread, lua_tostring(Thread, 2));
+	if (r_l_type(RThread, -1) > R_LUA_TNIL) {
+		Wrap(RThread, Thread, -1);
+		return 1;
+	}
+	return 0;
+}
+
+/*Used For Instance Caching*/
+
+//TODO ADD NEWINDEX METAMETHOD AND POSSIBLY ADD TOSTRING AND ADD AND SUB METAMETHODS
+
 
 
 static const char alphanum[] =
@@ -322,21 +338,7 @@ char genRandom()
 	return alphanum[rand() % stringLength];
 }
 
-static int GlobalsIndex(lua_State* Thread) {
-	int RThread = r_l_newthread(RLS);
-	r_l_getglobal(RThread, lua_tostring(Thread, 2));
-	if (r_l_type(RThread, -1) > R_LUA_TNIL) {
-		Wrap(RThread, Thread, -1);
-		return 1;
-	}
-	return 0;
-}
-
-
 using namespace std;
-
-
-
 
 namespace Wrapper {
 	void Execute_Script(std::string Script) {
