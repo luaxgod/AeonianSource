@@ -49,7 +49,7 @@ xgladius - Mouse And KeyBoard Lib<br />
 ASDF - Scanner<br />
 Eternal - RetCheck & SehChainFake<br />
 Doggo & Aero - Leaking The SetField Bypass<br />
-Sloppey - Upload Check Hooke (Luv u slop nohomo)<br />
+Sloppey - Upload Check Hook & Int3Locator (Luv u slop nohomo)<br />
 Local Communist/Deniality - Idk If He Made It But I Use The Unlink Module Ban Bypass He Had So????????<br />
 
 # Honourable Mentions
