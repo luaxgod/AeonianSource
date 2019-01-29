@@ -5,21 +5,21 @@ This was the old Aeonian source that i am no longer working on due to how it is 
 
 this is an exploit that utilises Autumns method of wrapping to achive execution on roblox
 this exploit uses the same method of execution that other exploits use such as
-Cyber v1/2/3/ \n
-Axon v1 \n
-Flame V3 \n
-Bleu v1 \n
-WRDAPI Lua Execution (not the restricted one) (Oh wait that is axon ha) \n
+Cyber v1/2/3/<br />
+Axon v1 
+Flame V3 
+Bleu v1 
+WRDAPI Lua Execution (not the restricted one) (Oh wait that is axon ha) 
 
 Old Exploits That Used The Same Method\n
-Timber\n
-Terv\n
-Seraph\n
-Synapse (in its beta, also the predesecor to raindrop)\n
-Raindrop\n
+Timber
+Terv
+Seraph
+Synapse (in its beta, also the predesecor to raindrop)
+Raindrop
 
 # What Features Does This Have?
-. Functional Instance Caching\n
+. Functional Instance Caching
 . Non-Functional Table Caching That Would Work With A Bit Of Effort (Tables Will Still Wrap Normally)
 . Both-Way Yielding (Yields In Both Function Handlers)
 . Wraps All 11 Roblox Lua DataTypes *Including TPROTO TUPVALUE AND TNONE*
