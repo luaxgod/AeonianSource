@@ -268,7 +268,7 @@ int FunctionHandler(lua_State* L) {
 			std::cout << ired << "Lua API Error: " << err << "\n";
 			return 0;
 		}
-		std::cout << ired << "Lua API Error: " << "No Error Supplied!" << "\n";
+		std::cout << ired << "Lua API Error: No Error Message Supplied!\n";
 		return 0;
 	}
 }
