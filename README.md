@@ -5,14 +5,13 @@ This was the old Aeonian source that i am no longer working on due to how it is 
 
 this is an exploit that utilises Autumns method of wrapping to achive execution on roblox
 this exploit uses the same method of execution that other exploits use such as<br />
-Cyber v1/2/3/<br />
+Cyber v1/2/3/ and possibly v4 idk there has been so many versions of cyber I lost track ages ago XD<br />
 Axon v1 <br />
 Flame V3 <br />
 Bleu v1 <br />
 WRDAPI Lua Execution (not the restricted one) (Oh wait that is axon ha) <br />
 
 Old Exploits That Used The Same Method<br />
-Timber<br />
 Terv<br />
 Seraph<br />
 Synapse (in its beta, also the predesecor to raindrop)<br />
@@ -67,7 +66,7 @@ If axon was never leaked i would have never met all these amazing people and i w
 
 # If Your Code Is In Here And Was Not Credited Contact Me And Ill Add It!
 
-# Help Me Please!
+# Need Help?
 
 Contact 
 ringarang#9486 
