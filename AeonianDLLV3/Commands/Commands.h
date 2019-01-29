@@ -16,7 +16,6 @@ namespace CommandSettings
 	{
 		static bool Active;
 		static std::string Prefix = ";";
-		static std::string LastCommand = "";
 	}
 }
 
