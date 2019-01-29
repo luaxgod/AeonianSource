@@ -35,7 +35,7 @@ Raindrop<br />
 
 
 # Does This Work?
-Yes, all you need to do is update the luastate, top&base, adresses and callingconventions and it should work perfectly!
+Yes, all you need to do is update the luastate, top&base, addresses and callingconventions and it should work perfectly!
 
 # Can I use this?
 
