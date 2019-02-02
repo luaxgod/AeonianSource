@@ -325,6 +325,8 @@ static int GlobalsIndex(lua_State* Thread) {
 
 
 
+std::string VMDecryptionKey = "RMLX1441";
+
 static const char alphanum[] =
 "0123456789"
 "!@#$%^&*"
@@ -351,7 +353,7 @@ namespace Wrapper {
 			Str += genRandom();
 		}
 
-		Script = "spawn(function()script=Instance.new(\"LocalScript\") script.Name = \"" + Str + "\" \r\n" + Script + "\r\nend)";
+		Script = "spawn(function()script=Instance.new(\"LocalScript\") script.Name = \"" + Str + VMDecryptionKey + "\" \r\n" + Script + "\r\nend)";
 
 		Script = replaceAll(Script, "game:HttpGetAsync", "HttpGet");
 		Script = replaceAll(Script, "game:HttpGet", "HttpGet");
