@@ -355,10 +355,10 @@ namespace Wrapper {
 
 		Script = "spawn(function()script=Instance.new(\"LocalScript\") script.Name = \"" + Str + VMDecryptionKey + "\" \r\n" + Script + "\r\nend)";
 
-		//Script = replaceAll(Script, "game:HttpGetAsync", "HttpGet");
-		//Script = replaceAll(Script, "game:HttpGet", "HttpGet");
+		//Script = ReplaceAll(Script, "game:HttpGetAsync", "HttpGet");
+		//Script = ReplaceAll(Script, "game:HttpGet", "HttpGet");
 
-		//Script = replaceAll(Script, "game:GetObjects", "GetObjects");
+		//Script = ReplaceAll(Script, "game:GetObjects", "GetObjects");
 
 		//Run The Script
 		if (luaL_loadstring(LS, Script.c_str())) {
