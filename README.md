@@ -1,7 +1,7 @@
 # Disclaimer
 
 This source is registered under european copyright laws, i will not be striking anyone but if i see any monetised youtube videos that showcase an exploit using this i will strike it / claim the revenue from it<br />
-ads on a website are fine just monetied youtube videosbr />
+ads on a website are fine just monetied youtube videos
 
 you may use this for free exploits or personal projects. But please refrain from selling it, I will find out and expose you. If you wish to sell please contact me first for permission!
 
