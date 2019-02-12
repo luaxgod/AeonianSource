@@ -1,3 +1,10 @@
+# Disclaimer
+
+This source is registered under european copyright laws, i will not be striking anyone but if i see any monetised youtube videos that showcase an exploit using this i will strike it / claim the revenue from it<br />
+ads on a website are fine just monetied youtube videosbr />
+
+you may use this for free exploits or personal projects. But please refrain from selling it, I will find out and expose you. If you wish to sell please contact me first for permission!
+
 # Aeonian-Source
 An unrestricted environment exploit for Roblox. Runs scripts at an identity of 6
 
@@ -35,10 +42,6 @@ Raindrop<br />
 
 # Does This Work?
 Yes, all you need to do is update the luastate, top&base, addresses and callingconventions and it should work perfectly!
-
-# Can I use this?
-
-Yes, you may use it for free exploits or personal projects. But please refrain from selling it, I will find out and expose you. If you wish to sell please contact me first for permission!
 
 # What is a Wrapper?
 A wrapper is best explained by the creator of wrapping (Autumn) here:<br />
